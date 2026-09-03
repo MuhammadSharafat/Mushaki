@@ -24,9 +24,3 @@ def remove_words(input_string, words_to_remove):
     return result_string
 
 
-#Example usage
-input_string = "make a phone call to ammu"
-words_to_remove = ['make', 'a', 'to', 'phone', 'call', 'send', 'message', 'wahtsapp', '']
-
-result = remove_words(input_string, words_to_remove)
-print(result)
