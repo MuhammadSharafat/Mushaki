@@ -12,10 +12,10 @@ import pvporcupine
 import pyaudio
 import pyautogui
 from engine.command import speak
-from engine.config import ASSISTANT_NAME
+from engine.config import ASSISTANT_NAME, LLM_KEY
 import pywhatkit as kit
 
-from engine.helper import extract_yt_term, remove_words
+from engine.helper import extract_yt_term, markdown_to_text, remove_words
 from hugchat import hugchat
 from urllib.parse import quote
 
@@ -139,7 +139,7 @@ def findContact(query):
 def whatsApp(mobile_no, message, flag, name):
 
     if flag == 'message':
-        target_tab = 12
+        target_tab = 14
         jarvis_message = "message send successfully to "+name
 
     elif flag == 'call':
@@ -221,3 +221,21 @@ def sendMessage(message, mobileNo, name):
     tapEvents(978, 1579)
     speak("message send successfully to "+name)
 
+
+import google.generativeai as genai
+def geminai(query):
+    try:
+        query = query.replace(ASSISTANT_NAME, "")
+        query = query.replace("search", "")
+        # Set your API key
+        genai.configure(api_key=LLM_KEY)
+
+        # Select a model
+        model = genai.GenerativeModel("gemini-3.6-flash")
+
+        # Generate a response
+        response = model.generate_content(query)
+        filter_text = markdown_to_text(response.text)
+        speak(filter_text)
+    except Exception as e:
+        print("Error:", e)

@@ -1,6 +1,8 @@
 import os
 import re
 import time
+import markdown2
+from bs4 import BeautifulSoup
 
 
 def extract_yt_term(command):
@@ -52,3 +54,8 @@ def goback(key_code):
 # To replace space in string with %s for complete message send
 def replace_spaces_with_percent_s(input_string):
     return input_string.replace(' ', '%s')
+
+def markdown_to_text(md):
+    html = markdown2.markdown(md)
+    soup = BeautifulSoup(html, "html.parser")
+    return soup.get_text().strip()
