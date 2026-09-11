@@ -2,4 +2,16 @@
 contacts.csv
 mushaki.db
 /engine/__pycache__
+/engine/auth/__pycache__
 /engine/cookies.json
+/engine/.env
+__pycache__
+/components/__pycache__
+*.pyc
+*.mp3
+*.wav
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db

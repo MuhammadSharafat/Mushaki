@@ -1,0 +1,171 @@
+[
+    {
+        "id": "80c47c63-b84d-4563-b5a9-3ea93a45a3f1",
+        "title": "hello musaki how are you",
+        "created_at": "2026-09-11T19:38:55.375318",
+        "updated_at": "2026-09-11T20:17:01.163121",
+        "messages": [
+            {
+                "role": "user",
+                "content": "hello musaki how are you"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! I'm doing great, thanks for asking. How are you doing today? Let me know if there's anything I can help you with!"
+            },
+            {
+                "role": "user",
+                "content": "hello musaki how are you"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! I'm doing really well, thank you for asking. How are you doing today? Let me know if there's anything I can help you with!"
+            },
+            {
+                "role": "user",
+                "content": "hello musaki how are you"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! I'm doing great, thank you for asking. How are you doing today? How can I help you?"
+            }
+        ]
+    },
+    {
+        "id": "087b9b63-0971-43e3-b70a-01feb6db4c30",
+        "title": "New Chat",
+        "created_at": "2026-09-11T18:38:15.520539",
+        "updated_at": "2026-09-11T19:39:05.771766",
+        "messages": []
+    },
+    {
+        "id": "69abd9ef-fa27-45bb-a92a-cc106bc6a57f",
+        "title": "hello Musa ki how are you",
+        "created_at": "2026-09-11T18:31:32.368122",
+        "updated_at": "2026-09-11T18:31:58.643262",
+        "messages": [
+            {
+                "role": "user",
+                "content": "hello Musa ki how are you"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! I'm doing great, thank you for asking. How are you doing today?"
+            }
+        ]
+    },
+    {
+        "id": "a72a6af7-1b8f-402f-bc29-ea51419c846b",
+        "title": "New Chat",
+        "created_at": "2026-09-10T21:29:50.438395",
+        "updated_at": "2026-09-10T21:29:50.438395",
+        "messages": []
+    },
+    {
+        "id": "1c5624c2-36ee-44e7-affd-7e718aa0f923",
+        "title": "hello Mushaki",
+        "created_at": "2026-09-10T21:22:12.726615",
+        "updated_at": "2026-09-10T21:23:37.277444",
+        "messages": [
+            {
+                "role": "user",
+                "content": "hello Mushaki"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! How are you doing today? Let me know what's on your mind or what you'd like to work on!"
+            },
+            {
+                "role": "user",
+                "content": "hello musaki how are you can you tell me about yourself"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! I'm doing great, thank you for asking. How are you?\nI am Mushaki, your personal AI assistant. \nHere is a bit about what I can do:\n* Answer Questions: Whether you need a quick fact, an explanation of a complex topic, or general advice.\n* Tech & Coding Help: I can write clean code, help you debug errors, and explain technical concepts step by step.\n* Writing & Brainstorming: I can assist with drafting emails, writing articles, coming up with ideas, or summarizing long documents.\n* Multilingual: I understand and communicate fluently in English, Bangla, and Banglish.\nI aim to give clear, direct, and practical answers to make your tasks easier. \nWhat are you working on today? Let me know how I can help!"
+            }
+        ]
+    },
+    {
+        "id": "109bef6e-b853-4834-b3f8-a122348feb02",
+        "title": "New Chat",
+        "created_at": "2026-09-10T21:07:34.442911",
+        "updated_at": "2026-09-10T21:07:34.442911",
+        "messages": []
+    },
+    {
+        "id": "472cc9fc-4624-4180-8cac-f48e3629c8c3",
+        "title": "New Chat",
+        "created_at": "2026-09-10T20:58:04.108878",
+        "updated_at": "2026-09-10T20:58:04.108878",
+        "messages": []
+    },
+    {
+        "id": "a62f72cb-a5a5-4217-a057-91b3273d477e",
+        "title": "New Chat",
+        "created_at": "2026-09-10T19:12:32.974260",
+        "updated_at": "2026-09-10T19:12:32.974260",
+        "messages": []
+    },
+    {
+        "id": "cd4fb0b1-9589-414b-b4f9-cfa1319d0f9c",
+        "title": "hello mushaki",
+        "created_at": "2026-09-10T10:23:00.304479",
+        "updated_at": "2026-09-10T10:23:27.633426",
+        "messages": [
+            {
+                "role": "user",
+                "content": "hello mushaki"
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry, I couldn't process your request right now. Please try again."
+            }
+        ]
+    },
+    {
+        "id": "1e176aff-8aec-48ec-a15a-18abe3590678",
+        "title": "New Chat",
+        "created_at": "2026-09-10T10:14:46.322478",
+        "updated_at": "2026-09-10T10:14:46.322478",
+        "messages": []
+    },
+    {
+        "id": "e159e550-dd95-4646-bea0-c3d3d4a3d7ef",
+        "title": "New Chat",
+        "created_at": "2026-09-10T10:14:00.463667",
+        "updated_at": "2026-09-10T10:14:00.463667",
+        "messages": []
+    },
+    {
+        "id": "39e8b62d-b805-4c4e-a90d-8c303b369fd4",
+        "title": "hello Mushaki",
+        "created_at": "2026-09-10T10:14:00.463667",
+        "updated_at": "2026-09-10T10:14:00.463667",
+        "messages": [
+            {
+                "role": "user",
+                "content": "hello Mushaki"
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry, I couldn't process your request right now. Please try again."
+            },
+            {
+                "role": "user",
+                "content": "hello Mushaki"
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry, I couldn't process your request right now. Please try again."
+            },
+            {
+                "role": "user",
+                "content": "what is ai"
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry, I couldn't process your request right now. Please try again."
+            }
+        ]
+    }
+]
