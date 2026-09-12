@@ -46,7 +46,6 @@ section[data-testid="stSidebar"] label {
     color: #e2e8f0;
 }
 
-
 /* =========================
    HEADER
    ========================= */
@@ -54,21 +53,15 @@ section[data-testid="stSidebar"] label {
 .top-header {
     width: 100%;
     min-height: 90px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 15px 20px;
     margin-bottom: 25px;
-
     border: 1px solid rgba(148, 163, 184, 0.12);
     border-radius: 22px;
-
     background: rgba(15, 23, 42, 0.72);
-
-    box-shadow:
-        0 15px 50px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
 }
 
 .header-left {
@@ -80,44 +73,31 @@ section[data-testid="stSidebar"] label {
 .header-logo-wrapper {
     width: 62px;
     height: 62px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     overflow: hidden;
     border-radius: 17px;
-
-    background: linear-gradient(
-        135deg,
-        #1d4ed8,
-        #4f46e5
-    );
-
-    box-shadow:
-        0 8px 25px rgba(59, 130, 246, 0.20);
+    background: linear-gradient(135deg, #1d4ed8, #4f46e5);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.20);
 }
 
 .header-logo {
     width: 62px;
     height: 62px;
-
     object-fit: cover;
     border-radius: 17px;
 }
 
 .header-title {
     color: #f8fafc;
-
     font-size: 26px;
     font-weight: 800;
-
     letter-spacing: -0.6px;
 }
 
 .header-subtitle {
     color: #94a3b8;
-
     font-size: 13px;
     margin-top: 3px;
 }
@@ -126,16 +106,11 @@ section[data-testid="stSidebar"] label {
     display: flex;
     align-items: center;
     gap: 8px;
-
     padding: 8px 14px;
-
     border-radius: 999px;
-
     background: rgba(34, 197, 94, 0.08);
     border: 1px solid rgba(34, 197, 94, 0.20);
-
     color: #86efac;
-
     font-size: 13px;
     font-weight: 600;
 }
@@ -143,15 +118,10 @@ section[data-testid="stSidebar"] label {
 .header-status-dot {
     width: 8px;
     height: 8px;
-
     border-radius: 50%;
-
     background: #22c55e;
-
-    box-shadow:
-        0 0 10px rgba(34, 197, 94, 0.85);
+    box-shadow: 0 0 10px rgba(34, 197, 94, 0.85);
 }
-
 
 /* =========================
    SIDEBAR
@@ -159,63 +129,44 @@ section[data-testid="stSidebar"] label {
 
 .sidebar-logo {
     width: 100%;
-
     display: flex;
     justify-content: center;
-
     margin-bottom: 12px;
 }
 
 .sidebar-logo img {
     width: 96px;
     height: 96px;
-
     object-fit: cover;
-
     border-radius: 24px;
-
-    box-shadow:
-        0 12px 40px rgba(59, 130, 246, 0.22);
+    box-shadow: 0 12px 40px rgba(59, 130, 246, 0.22);
 }
 
 .sidebar-brand {
     text-align: center;
-
     color: #f8fafc;
-
     font-size: 24px;
     font-weight: 800;
 }
 
 .sidebar-description {
     text-align: center;
-
     color: #64748b;
-
     font-size: 12px;
-
     margin-top: 4px;
 }
 
 .sidebar-status {
     width: fit-content;
-
     display: flex;
     align-items: center;
     gap: 7px;
-
     margin: 14px auto 18px;
-
     padding: 7px 13px;
-
     border-radius: 999px;
-
     background: rgba(34, 197, 94, 0.08);
-
     border: 1px solid rgba(34, 197, 94, 0.15);
-
     color: #86efac;
-
     font-size: 12px;
     font-weight: 600;
 }
@@ -223,38 +174,26 @@ section[data-testid="stSidebar"] label {
 .sidebar-status-dot {
     width: 7px;
     height: 7px;
-
     border-radius: 50%;
-
     background: #22c55e;
-
-    box-shadow:
-        0 0 8px rgba(34, 197, 94, 0.8);
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.8);
 }
 
 .chat-history-title {
     color: #64748b;
-
     font-size: 11px;
     font-weight: 700;
-
     text-transform: uppercase;
-
     letter-spacing: 1px;
-
     margin: 18px 0 9px;
 }
 
 .sidebar-version {
     text-align: center;
-
     color: #475569;
-
     font-size: 11px;
-
     margin-top: 18px;
 }
-
 
 /* =========================
    STATISTICS
@@ -262,39 +201,29 @@ section[data-testid="stSidebar"] label {
 
 .stats-grid {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 8px;
 }
 
 .stat-card {
     padding: 13px;
-
     border-radius: 13px;
-
     background: rgba(30, 41, 59, 0.50);
-
     border: 1px solid rgba(148, 163, 184, 0.08);
-
     text-align: center;
 }
 
 .stat-value {
     color: #f8fafc;
-
     font-size: 19px;
     font-weight: 800;
 }
 
 .stat-label {
     color: #64748b;
-
     font-size: 10px;
-
     margin-top: 3px;
 }
-
 
 /* =========================
    BUTTONS
@@ -302,31 +231,21 @@ section[data-testid="stSidebar"] label {
 
 .stButton > button {
     width: 100%;
-
     min-height: 45px;
-
     border-radius: 13px;
-
     border: 1px solid rgba(148, 163, 184, 0.14);
-
     background: rgba(30, 41, 59, 0.72);
-
     color: #e2e8f0;
-
     font-size: 14px;
     font-weight: 600;
-
     transition: all 0.2s ease;
 }
 
 .stButton > button:hover {
     border-color: rgba(96, 165, 250, 0.55);
-
     background: rgba(51, 65, 85, 0.88);
-
     transform: translateY(-1px);
 }
-
 
 /* =========================
    WELCOME
@@ -334,17 +253,11 @@ section[data-testid="stSidebar"] label {
 
 .welcome-card {
     width: 100%;
-
     padding: 42px 30px;
-
     margin-bottom: 25px;
-
     text-align: center;
-
     border-radius: 25px;
-
     border: 1px solid rgba(148, 163, 184, 0.12);
-
     background:
         radial-gradient(
             circle at 50% 0%,
@@ -352,49 +265,37 @@ section[data-testid="stSidebar"] label {
             transparent 45%
         ),
         rgba(15, 23, 42, 0.70);
-
-    box-shadow:
-        0 20px 60px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.20);
 }
 
 .welcome-icon {
-    font-size: 52px;
-
-    margin-bottom: 8px;
+    font-size: 42px !important;
+    line-height: 1 !important;
+    margin-bottom: 10px !important;
 }
 
 .welcome-title {
     color: #f8fafc;
-
     font-size: 34px;
     font-weight: 800;
-
     letter-spacing: -0.8px;
-
     margin-bottom: 10px;
 }
 
 .welcome-text {
     max-width: 650px;
-
     margin: auto;
-
     color: #94a3b8;
-
     font-size: 15px;
-
     line-height: 1.7;
 }
 
 .section-title {
     color: #e2e8f0;
-
     font-size: 15px;
     font-weight: 700;
-
     margin: 18px 0 10px;
 }
-
 
 /* =========================
    CHAT
@@ -402,96 +303,10 @@ section[data-testid="stSidebar"] label {
 
 .stChatMessage {
     border-radius: 18px;
-
     border: 1px solid rgba(148, 163, 184, 0.08);
-
     background: rgba(15, 23, 42, 0.42);
-
     margin-bottom: 10px;
 }
-
-[data-testid="stChatInput"] {
-    border-radius: 18px;
-}
-
-[data-testid="stChatInput"] textarea {
-    background: rgba(15, 23, 42, 0.85) !important;
-
-    border: 1px solid rgba(148, 163, 184, 0.15) !important;
-
-    border-radius: 16px !important;
-
-    color: #f8fafc !important;
-}
-
-
-/* =========================
-   VOICE
-   ========================= */
-
-.voice-card {
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-
-    gap: 15px;
-
-    padding: 20px 22px;
-
-    margin: 22px 0 12px;
-
-    border-radius: 19px;
-
-    border: 1px solid rgba(96, 165, 250, 0.14);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(30, 64, 175, 0.12),
-            rgba(30, 41, 59, 0.55)
-        );
-}
-
-.voice-icon {
-    width: 46px;
-    height: 46px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 14px;
-
-    background: rgba(59, 130, 246, 0.12);
-
-    font-size: 23px;
-}
-
-.voice-title {
-    color: #e2e8f0;
-
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.voice-subtitle {
-    color: #64748b;
-
-    font-size: 12px;
-
-    margin-top: 3px;
-}
-
-
-/* =========================
-   DIVIDER
-   ========================= */
-
-hr {
-    border-color: rgba(148, 163, 184, 0.10);
-}
-
 
 /* =========================
    FOOTER
@@ -499,64 +314,9 @@ hr {
 
 .footer {
     text-align: center;
-
     padding: 35px 0 10px;
-
     color: #475569;
-
     font-size: 12px;
-}
-
-
-/* =========================
-   MOBILE
-   ========================= */
-
-@media (max-width: 700px) {
-
-    .block-container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .top-header {
-        padding: 13px;
-    }
-
-    .header-logo-wrapper,
-    .header-logo {
-        width: 52px;
-        height: 52px;
-    }
-
-    .header-title {
-        font-size: 21px;
-    }
-
-    .header-subtitle {
-        display: none;
-    }
-
-    .header-status {
-        font-size: 11px;
-        padding: 7px 10px;
-    }
-
-    .welcome-card {
-        padding: 32px 18px;
-    }
-
-    .welcome-title {
-        font-size: 27px;
-    }
-
-    .welcome-text {
-        font-size: 14px;
-    }
-
-    .voice-card {
-        padding: 16px;
-    }
 }
 
 /* =========================
@@ -577,22 +337,15 @@ hr {
     -webkit-backdrop-filter: blur(14px);
 }
 
-
-/* Keep page content above the footer/input area */
-
 .block-container {
     padding-bottom: 110px !important;
 }
 
+/* =========================
+   TEXT INPUT
+   ========================= */
 
-/* Remove text input border */
-
-.st-key-chat_input_bar [data-testid="stTextInput"] > div {
-    border: none !important;
-    box-shadow: none !important;
-    background: transparent !important;
-}
-
+.st-key-chat_input_bar [data-testid="stTextInput"] > div,
 .st-key-chat_input_bar [data-testid="stTextInput"] div[data-baseweb="input"] {
     border: none !important;
     box-shadow: none !important;
@@ -605,41 +358,124 @@ hr {
     box-shadow: none !important;
 }
 
+/* =========================
+   SEND BUTTON
+   ========================= */
 
-/* Remove button outline and black border */
+.st-key-chat_input_bar [data-testid="stBaseButton-secondary"] {
+    min-height: 45px !important;
+    height: 45px !important;
+}
 
 .st-key-chat_input_bar button {
     outline: none !important;
 }
 
-.st-key-chat_input_bar button:focus,
-.st-key-chat_input_bar button:focus-visible,
-.st-key-chat_input_bar button:active {
-    outline: none !important;
-    box-shadow: none !important;
+/* =========================
+   PERFECT MIC BUTTON MATCH
+   ========================= */
+
+.native-mic-btn {
+    width: 100%;
+    height: 45px;
+    min-height: 45px;
+    border-radius: 13px;
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    background: rgba(30, 41, 59, 0.72);
+    color: #e2e8f0;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    outline: none;
+    padding: 0;
+    margin: 0;
 }
 
-
-/* Remove iframe/component border around microphone */
-
-.st-key-chat_input_bar iframe {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
+.native-mic-btn:hover {
+    border-color: rgba(96, 165, 250, 0.55);
+    background: rgba(51, 65, 85, 0.88);
+    transform: translateY(-1px);
 }
 
+.native-mic-btn.recording {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.5);
+    color: #ef4444;
+    animation: pulse 1.5s infinite;
+}
 
-/* Mobile */
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
 
-@media (max-width: 700px) {
+/* =========================
+   AUDIO RECORDER OVERRIDE
+   ========================= */
 
-    .st-key-chat_input_bar {
-        width: calc(100vw - 20px);
-        bottom: 10px;
-        padding: 8px;
-    }
+/* mic container styling */
+div[data-testid="stCustomComponentV1"] {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 45px !important;
+    min-height: 45px !important;
+}
 
-    .block-container {
-        padding-bottom: 100px !important;
-    }
+/* Force styling to audio recorder svg icon button */
+div[data-testid="stCustomComponentV1"] iframe {
+    height: 45px !important;
+    min-height: 45px !important;
+}
+
+/* Microhone container box to match send button */
+.st-key-chat_input_bar .stColumn:last-child {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Dynamic Playing Microphone indicator */
+.playing-mic-btn {
+    width: 100%;
+    height: 45px;
+    min-height: 45px;
+    border-radius: 13px;
+    border: 1px solid rgba(59, 130, 246, 0.5);
+    background: rgba(30, 58, 138, 0.6);
+    color: #60a5fa;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    animation: pulse-border 1.2s infinite;
+}
+
+@keyframes pulse-border {
+    0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+    70% { box-shadow: 0 0 0 8px rgba(59, 130, 246, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+/* Mic Button Styling to match Send Button */
+div[data-element-id="native_mic_recorder"] button {
+    width: 100% !important;
+    height: 45px !important;
+    min-height: 45px !important;
+    border-radius: 13px !important;
+    border: 1px solid rgba(148, 163, 184, 0.14) !important;
+    background: rgba(30, 41, 59, 0.72) !important;
+    color: #e2e8f0 !important;
+    font-size: 16px !important;
+}
+
+div[data-element-id="native_mic_recorder"] button:hover {
+    border-color: rgba(96, 165, 250, 0.55) !important;
+    background: rgba(51, 65, 85, 0.88) !important;
 }

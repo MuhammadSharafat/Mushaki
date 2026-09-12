@@ -3,7 +3,7 @@
         "id": "80c47c63-b84d-4563-b5a9-3ea93a45a3f1",
         "title": "hello musaki how are you",
         "created_at": "2026-09-11T19:38:55.375318",
-        "updated_at": "2026-09-11T20:17:01.163121",
+        "updated_at": "2026-09-12T21:28:24.674261",
         "messages": [
             {
                 "role": "user",
@@ -11,23 +11,27 @@
             },
             {
                 "role": "assistant",
-                "content": "Hello! I'm doing great, thanks for asking. How are you doing today? Let me know if there's anything I can help you with!"
+                "content": "Hello! I'm doing well, thank you for asking. How are you doing today? Let me know if there's anything I can help you with!"
             },
             {
                 "role": "user",
-                "content": "hello musaki how are you"
+                "content": "hello musaki how are you doing today"
             },
             {
                 "role": "assistant",
-                "content": "Hello! I'm doing really well, thank you for asking. How are you doing today? Let me know if there's anything I can help you with!"
+                "content": "Hello! I'm doing well, thank you for asking. How are you doing today? Let me know if there's anything I can help you with!"
             },
             {
                 "role": "user",
-                "content": "hello musaki how are you"
+                "content": "hello musaki how are you doing today"
+            },
+            {
+                "role": "user",
+                "content": "so hey darling what's up"
             },
             {
                 "role": "assistant",
-                "content": "Hello! I'm doing great, thank you for asking. How are you doing today? How can I help you?"
+                "content": "Hey there! I'm doing great, thank you. How are you doing today? What's on your mind?"
             }
         ]
     },
