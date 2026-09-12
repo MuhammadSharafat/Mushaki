@@ -1,8 +1,0 @@
-streamlit
-streamlit-mic-recorder
-google-genai
-SpeechRecognition
-gTTS
-pygame
-python-dotenv
-pyaudio
