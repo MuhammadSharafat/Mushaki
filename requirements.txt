@@ -5,3 +5,4 @@ SpeechRecognition
 gTTS
 
 python-dotenv
+markdown2
