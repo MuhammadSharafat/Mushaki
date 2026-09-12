@@ -8,11 +8,5 @@ markdown2
 beautifulsoup4
 pydub
 Pillow
-opencv-python
 numpy
 edge-tts
-pyautogui
-pywhatkit
-playsound
-hugchat
-pvporcupine
