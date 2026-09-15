@@ -4,6 +4,7 @@ from pathlib import Path
 
 import streamlit as st
 from streamlit_mic_recorder import mic_recorder
+from audio_recorder_streamlit import audio_recorder
 
 from chat_memory import (
     add_conversation,
@@ -243,8 +244,6 @@ for message in messages:
 # INPUT BAR & MIC
 # =========================
 
-voice_recording = None
-
 with st.container(key="chat_input_bar"):
     input_col, send_col, mic_col = st.columns(
         [8, 1, 1], vertical_alignment="center"
@@ -268,13 +267,15 @@ with st.container(key="chat_input_bar"):
         )
 
     with mic_col:
-        # Stable Python-native Microphone Component
-        voice_recording = mic_recorder(
-            start_prompt="🎙️",
-            stop_prompt="⏹️",
-            key="native_mic_recorder",
-            use_container_width=True,
-        )
+        # Iframe-less Native Voice Recorder Modal
+        with st.popover("🎙️", use_container_width=True):
+            st.markdown("### Voice Input")
+            recorded_audio_file = st.audio_input("Record audio", key="native_mic_recorder")
+
+# Audio Bytes extract from native audio input
+audio_bytes = None
+if recorded_audio_file:
+    audio_bytes = recorded_audio_file.read()
 
 # =========================
 # INPUT PROCESSING
@@ -285,16 +286,18 @@ pending_text = st.session_state.pop("pending_text", None)
 user_prompt = pending_text or pending_prompt
 
 # Process Voice Recording Data
-if voice_recording and "bytes" in voice_recording:
-    audio_bytes = voice_recording["bytes"]
-    if audio_bytes:
+# Process Voice Recording Data Safely
+if audio_bytes:
+    if st.session_state.get("last_processed_audio") != audio_bytes:
+        st.session_state.last_processed_audio = audio_bytes
+        
         with st.spinner("Processing Voice..."):
             try:
                 voice_text = speech_to_text(audio_bytes)
                 if voice_text:
                     user_prompt = voice_text
                 else:
-                    st.warning("Could not recognize voice. Please try again.")
+                    st.warning("Could not recognize voice. Please speak clearly.")
             except Exception as e:
                 st.error(f"Voice Recognition Error: {e}")
 

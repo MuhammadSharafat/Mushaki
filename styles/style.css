@@ -479,3 +479,51 @@ div[data-element-id="native_mic_recorder"] button:hover {
     border-color: rgba(96, 165, 250, 0.55) !important;
     background: rgba(51, 65, 85, 0.88) !important;
 }
+
+/* Mic Recorder Component Styling Fix */
+iframe[title="streamlit_mic_recorder.mic_recorder"] {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+iframe[title="streamlit_mic_recorder.mic_recorder"] button {
+    background-color: #1e293b !important;
+    color: #ffffff !important;
+    border: 1px solid #334155 !important;
+    border-radius: 8px !important;
+}
+
+/* Prevent white box flicker on mic re-render */
+iframe[title="streamlit_mic_recorder.mic_recorder"] {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+    color-scheme: dark !important;
+}
+
+/* Force dark theme inside component container */
+div[data-testid="stCustomComponentV1"] {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+iframe[title="streamlit_mic_recorder.mic_recorder"] html,
+iframe[title="streamlit_mic_recorder.mic_recorder"] body {
+    background-color: transparent !important;
+}
+
+/* Popover button size fix to match send button */
+.st-key-chat_input_bar div[data-testid="stPopover"] > button {
+    min-height: 45px !important;
+    height: 45px !important;
+    border-radius: 13px !important;
+    border: 1px solid rgba(148, 163, 184, 0.14) !important;
+    background: rgba(30, 41, 59, 0.72) !important;
+    color: #e2e8f0 !important;
+}
+
+.st-key-chat_input_bar div[data-testid="stPopover"] > button:hover {
+    border-color: rgba(96, 165, 250, 0.55) !important;
+    background: rgba(51, 65, 85, 0.88) !important;
+}
