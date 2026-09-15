@@ -10,3 +10,4 @@ pydub
 Pillow
 numpy
 edge-tts
+audio-recorder-streamlit
