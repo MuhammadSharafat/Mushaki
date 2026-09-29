@@ -37,7 +37,7 @@ Mushaki understands **English, Bangla and Banglish**, and replies in the same la
 
 | 💻 Desktop Edition | 🌐 Web Edition |
 |:---:|:---:|
-| <img src="assets/desk.png" alt="Mushaki AI desktop assistant" width="440"> | <img src="assets/web.png" alt="Mushaki AI web app" width="440"> |
+| <img src="www/assets/desk.png" alt="Mushaki AI desktop assistant" width="440"> | <img src="www/assets/web.png" alt="Mushaki AI web app" width="440"> |
 
 </div>
 
